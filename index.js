@@ -1,3 +1,5 @@
+const abcdef = "hello"
+
 const container = document.querySelector(".container")
 const start = document.querySelector("#start")
 const pause = document.querySelector("#pause")
@@ -8,7 +10,6 @@ let minutes = 0
 let hours = 0
 let IntervalId
 
-let status = ""
 start.addEventListener("click", () => {
     container.classList.remove("red", "white")
     container.classList.add("green")
