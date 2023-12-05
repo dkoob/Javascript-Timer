@@ -12,7 +12,7 @@ let status = ""
 start.addEventListener("click", () => {
     container.classList.remove("red", "white")
     container.classList.add("green")
-    intervalId = setInterval(startTimer, 1)
+    intervalId = setInterval(startTimer, 1000)
 })
 
 pause.addEventListener("click", () => {
