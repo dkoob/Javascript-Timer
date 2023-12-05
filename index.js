@@ -1,5 +1,3 @@
-const abcdef = "hello"
-
 const container = document.querySelector(".container")
 const start = document.querySelector("#start")
 const pause = document.querySelector("#pause")
